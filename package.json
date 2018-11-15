@@ -1,0 +1,26 @@
+{
+  "name": "creativecodebot",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon --exec node -r dotenv/config index.js",
+    "test": "standard",
+    "fix": "standard --fix"
+  },
+  "engines": {
+    "node": "10.7.0"
+  },
+  "author": "none",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "standard": "^12.0.1"
+  }
+}
