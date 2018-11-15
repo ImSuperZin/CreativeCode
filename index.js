@@ -51,4 +51,4 @@ client.on('guildMemberRemove', member => {
   member.guild.channels.get('512760711907246090').send(saiu)
 })
 
-client.login(process.env.TOKEN))
+client.login(process.env.BOT_TOKEN))
