@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
   let canal = message.member.guild.channels.get('481260969293643777')
 
   const announceembed = new Discord.RichEmbed()
-    .setAuthor('Creative BOT', client.user.avatarURL)
+    .setAuthor('LabError', client.user.avatarURL)
     .setColor('00FFFF')
     .addField('' + args.join(' '))
     .addField('Por:', `${message.author}`)
