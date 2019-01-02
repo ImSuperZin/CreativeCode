@@ -12,7 +12,7 @@ module.exports.run = async (client, message, args) => {
       .setDescription(`Clique [aqui](${member.user.avatarURL}) para fazer o download da imagem.`)
       .setImage(member.user.avatarURL)
       .setThumbnail('#4a4a4a')
-      .setFooter('SpongeBOT ')
+      .setFooter('LabError ')
 
     message.channel.send(avatar)
   } else {
@@ -21,7 +21,7 @@ module.exports.run = async (client, message, args) => {
       .setDescription(`Clique [aqui](${message.author.avatarURL}) para fazer o downlaod do seu avatar.`)
       .setThumbnail(message.author.avatarURL)
       .setColor('#4a4a4a')
-      .setFooter('SpongeBOT')
+      .setFooter('LabError')
 
     message.channel.send(avatar)
   }
