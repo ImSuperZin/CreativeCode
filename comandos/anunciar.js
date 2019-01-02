@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
     .setColor('00FFFF')
     .addField('' + args.join(' '))
     .addField('Por:', `${message.author}`)
-    .setFooter('CreativeBOT © 2018')
+    .setFooter('LabError © 2019')
     .setTimestamp()
   message.delete()
   canal.send(announceembed)
